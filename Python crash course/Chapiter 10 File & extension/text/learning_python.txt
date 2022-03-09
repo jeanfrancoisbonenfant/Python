@@ -1,0 +1,9 @@
+In python you can assign text, number or boolean to variable.
+In python you can use list to store variable, text, number or boolean.
+In python you can use conditionnal statement to make it do what you want.
+In python you can create dictionaries to store pair values.
+In python you can ask for user input and create while and for loop.
+In python you can create function or use buildin function.
+In python you can create class to use object oriented programming.
+In python you can import data from library or from other files.
+In python you can test your code to find errors.
