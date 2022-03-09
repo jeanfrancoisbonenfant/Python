@@ -11,6 +11,11 @@ class Restaurant:
         print(f"{self.name} is currently open.")
 
 
-my_restaurant = Restaurant("Pizza 73", "pizzeria")
-print(my_restaurant.name)
-print(my_restaurant.type)
+class IceCreamStand(Restaurant):
+
+    def __init__(self, name, type):
+        super().__init__(name, type)
+        self.flavors = ["Vanilla", "Chocolate", "Bubble gum", "Coton Candy"]
+
+    def display_flavors(self):
+        print(f"Available flavors : {self.flavors}")
